@@ -3,6 +3,8 @@ package com.jorgedirkx;
 import java.io.OptionalDataException;
 import java.util.List;
 
+//DAO: structural pattern to isolate application/business layer from persistence layer or other
+
 public interface DAO {
 
     public List<User> getAllUSers();
